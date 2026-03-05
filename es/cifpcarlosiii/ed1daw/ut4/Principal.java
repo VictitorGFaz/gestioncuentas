@@ -1,5 +1,10 @@
 package gestioncuentas.es.cifpcarlosiii.ed1daw.ut4;
 
+/**
+ * Clase principal de la cuenta
+ * @author Victor
+ * @version 1.1
+ */
 public class Principal {
 
     public static void main(String[] args) {
@@ -35,6 +40,10 @@ public class Principal {
         cc.mostrarDatos();
     }
 
+    /**
+     * Clase creada para hacer una prueba
+     * @param cuenta{Cuenta}
+     */
     private static void extracted(Cuenta cuenta) {
         cuenta.setSaldo(cuenta.getSaldo() + 200 - 50);
     }
